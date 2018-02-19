@@ -19,12 +19,12 @@ export default class FormPage extends React.Component {
             let errors = { ...this.state.errors };
             delete errors[e.target.name];
             this.setState({ 
-                [e.target.name]: e.target.value.substr(0,50),
+                [e.target.name]: e.target.value.substr(0,30),
                 errors
             });
         } else {
            this.setState({ 
-                [e.target.name]: e.target.value.substr(0,50)
+                [e.target.name]: e.target.value.substr(0,30)
             }); 
         }
     }
@@ -57,7 +57,7 @@ export default class FormPage extends React.Component {
                     floatingLabelFixed={true}
                     errorText={ this.state.errors.name }
                     onChange={this.handleChange}
-                    style={{minWidth: '350px'}}
+                    style={{minWidth: '300px'}}
                 />
                 <br />
                 <div className="App-btns-container">        

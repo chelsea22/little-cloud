@@ -25,7 +25,7 @@ class FileNode extends React.Component {
     }
     render(){
         const { nodeTree } = this.props;
-        const name = (nodeTree.name.length > 20) ? (nodeTree.name.substr(0, 20) + '...') : nodeTree.name;
+        const name = (nodeTree.name.length > 30) ? (nodeTree.name.substr(0, 30) + '...') : nodeTree.name;
         return(
             <div className="Tree-file-node" 
                 onClick={this.handleClick}
