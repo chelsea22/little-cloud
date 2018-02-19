@@ -1,0 +1,25 @@
+{
+  "name": "littlecloudbackend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "license": "MIT",
+  "author": "chelsea22",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node -- server.js"
+  },
+  "babel": {
+    "presets": ["env"]
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "gridfs-stream": "^1.1.1",
+    "mongoose": "^4.10.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.11.0"
+  }
+}

@@ -1,0 +1,17 @@
+/* Folder View */
+.FolderView-container{
+  padding-bottom: 6em;
+}
+  
+.FolderView-float-button-container{
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em 1em;
+  height: 5.5em;
+}
+
+.FolderView-float-button{
+  align-self: flex-end;
+  order: 5;
+}
+  

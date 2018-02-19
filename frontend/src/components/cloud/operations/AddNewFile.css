@@ -1,0 +1,30 @@
+/* New File */
+.AddNewFile-ol{
+    
+}
+
+.AddNewFile-li{
+  margin: 2em 4em;
+}
+
+.AddNewFile-list{
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.AddNewFile-message-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AddNewFile-tab{
+    
+}
+
+.AddNewFile-done{
+  display: flex;
+  flex-basis: 200px;
+  justify-content: space-between;
+}
+  

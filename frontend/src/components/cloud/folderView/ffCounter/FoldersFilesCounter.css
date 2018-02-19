@@ -1,0 +1,12 @@
+/* FFCounter */
+.FFCounter-container{
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  padding: 1em 1em;
+  font-size: 0.9em;
+}
+
+.FFCounter-container > span{
+  padding-left: 2em; 
+}

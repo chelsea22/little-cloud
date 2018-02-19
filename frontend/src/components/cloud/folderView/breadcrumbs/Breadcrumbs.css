@@ -1,0 +1,26 @@
+/* Breadcrumbs */
+.Breadcrumbs-container{
+  display: flex;
+  flex: 1;
+  min-height: 3.5em;
+  align-items: center;
+  border: 3px solid #99004d;
+  background-color: #99004d;
+  overflow-y: scroll;
+  flex-wrap: nowrap;
+}
+
+.Breadcrumbs-crumb{
+  display: flex;
+  color: whitesmoke;
+  font: bold;
+  padding-left: 0.7em;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.Breadcrumbs-crumb:hover{
+  color: #ffffcc;
+  padding-bottom: 0.2em;
+}

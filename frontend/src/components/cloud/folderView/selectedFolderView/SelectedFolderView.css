@@ -1,0 +1,35 @@
+/* SelectedFolderView */
+.SelectedFolderView-list-container{
+  font-size: 1.1em;
+  padding: 0 1em 0 0.3em;
+}
+
+.SelectedFolderView-search-box{
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  padding: 1em 1em;
+}
+  
+.SelectedFolderView-back-row{
+  margin-left: 0.5em;
+  border: 1px solid navajowhite;
+  cursor: pointer;
+  padding: 0.3em 0.5em;
+  padding: 10px 30px;
+  margin-bottom: 0.5em;
+  background-color: #943062;
+  color: beige;
+  font-weight: 200;
+  border-radius: 7px;
+}
+
+.SelectedFolderView-back-row-empty{
+  height: 1.9em;
+}
+  
+.SelectedFolderView-li-tab{
+  list-style-type: none;
+  padding-left: 0.5em;
+  display: flex;
+}
