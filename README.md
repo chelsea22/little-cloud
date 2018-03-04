@@ -22,13 +22,13 @@ Also are used
 1. You should have MongoDB service started on port 27017
 
 
-2. Open new CMD. Navigate to backend folder and run commands:
+2. Open new CLI. Navigate to backend folder and run commands:
       #### `npm install` or `yarn install` 
       #### `npm start` or `yarn start`
     This will start backend server on port 8080 and will establish the connection to MongoDB
     
     
-3. Open new CMD. Navigate to frontend folder and run commands:
+3. Open new CLI. Navigate to frontend folder and run commands:
       #### `npm install` or `yarn install` 
       #### `npm start` or `yarn start`
     This will start front-end server on port 3000 New window in your browser will open automatically on localhost:300
