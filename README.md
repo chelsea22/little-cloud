@@ -31,7 +31,7 @@ Also are used
 3. Open new CLI. Navigate to frontend folder and run commands:
       #### `npm install` or `yarn install` 
       #### `npm start` or `yarn start`
-    This will start front-end server on port 3000 New window in your browser will open automatically on localhost:300
+    This will start front-end server on port 3000 New window in your browser will open automatically on localhost:3000
     
 ---
 
